@@ -64,6 +64,9 @@ int main() {
                 cout << "Result is: " << endl;
                 cout << divide(::numbers::firstNumber, ::numbers::secondNumber) << endl;
             break;
+            case 5:
+                cout << "Exiting program" << endl;
+            break;
             default:
                 cout << "Invalid Choice!" << endl;
             break;
